@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <replace file="C:\Syncope\Projects\SyncopeTest\enduser\target/syncope-enduser/app/js/app.js" value="/* &lt;Extensions>" token="/* &lt;Extensions> */" />
+    <replace file="C:\Syncope\Projects\SyncopeTest\enduser\target/syncope-enduser/app/js/app.js" value="&lt;/Extensions>*/" token="/* &lt;/Extensions> */" />
+  </target>
+</project>

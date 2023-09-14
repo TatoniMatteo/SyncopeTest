@@ -1,0 +1,357 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Syncope sample project - Core
+
+
+From: 'an unknown organization'
+  - Caffeine cache (https://github.com/ben-manes/caffeine) com.github.ben-manes.caffeine:caffeine:jar:2.9.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Disruptor Framework (http://lmax-exchange.github.com/disruptor) com.lmax:disruptor:jar:3.4.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - QDox (http://qdox.codehaus.org) com.thoughtworks.qdox:qdox:jar:1.12
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ClassGraph (https://github.com/classgraph/classgraph) io.github.classgraph:classgraph:jar:4.6.32
+    License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+  - swagger-annotations (https://github.com/swagger-api/swagger-core/modules/swagger-annotations) io.swagger.core.v3:swagger-annotations:bundle:2.0.10
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-core (https://github.com/swagger-api/swagger-core/modules/swagger-core) io.swagger.core.v3:swagger-core:bundle:2.0.10
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-integration (https://github.com/swagger-api/swagger-core/modules/swagger-integration) io.swagger.core.v3:swagger-integration:bundle:2.0.10
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-jaxrs2 (https://github.com/swagger-api/swagger-core/modules/swagger-jaxrs2) io.swagger.core.v3:swagger-jaxrs2:bundle:2.0.10
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-models (https://github.com/swagger-api/swagger-core/modules/swagger-models) io.swagger.core.v3:swagger-models:bundle:2.0.10
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Bean Validation API (http://beanvalidation.org) javax.validation:validation-api:jar:2.0.1.Final
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Serp (http://serp.sourceforge.net) net.sourceforge.serp:serp:jar:1.15.1
+    License: BSD  (LICENSE.txt)
+  - ConnId: Connector Framework (http://connid.tirasa.net/connector-framework/) net.tirasa.connid:connector-framework:bundle:1.5.2.0
+    License: CDDL 1.0  (http://opensource.org/licenses/CDDL-1.0)
+  - ConnId: Connector Framework Internal (http://connid.tirasa.net/connector-framework-internal/) net.tirasa.connid:connector-framework-internal:bundle:1.5.2.0
+    License: CDDL 1.0  (http://opensource.org/licenses/CDDL-1.0)
+  - ConnId: SLF4J Logging (http://connid.tirasa.net/slf4j-logging/) net.tirasa.connid:slf4j-logging:bundle:1.5.2.0
+    License: CDDL 1.0  (http://opensource.org/licenses/CDDL-1.0)
+  - AspectJ Weaver (https://www.eclipse.org/aspectj/) org.aspectj:aspectjweaver:jar:1.9.19
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt)
+  - Checker Qual (https://checkerframework.org) org.checkerframework:checker-qual:jar:3.19.0
+    License: The MIT License  (http://opensource.org/licenses/MIT)
+  - Highlight.js (http://webjars.org) org.webjars:highlightjs:jar:11.5.0
+    License: BSD  (https://raw.github.com/isagalaev/highlight.js/master/LICENSE)
+  - jquery (http://webjars.org) org.webjars:jquery:jar:3.4.1
+    License: MIT License  (https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt)
+  - jQuery UI (http://webjars.org) org.webjars:jquery-ui:jar:1.13.2
+    License: MIT License  (https://github.com/jquery/jquery-ui/blob/master/MIT-LICENSE.txt)
+  - SnakeYAML (http://www.snakeyaml.org) org.yaml:snakeyaml:bundle:1.27
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/) xml-apis:xml-apis:jar:1.4.01
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: The SAX License  (http://www.saxproject.org/copying.html)    License: The W3C License  (http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - JMS 1.1 (http://geronimo.apache.org/specs/geronimo-jms_1.1_spec) org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JTA 1.1 (http://geronimo.apache.org/specs/geronimo-jta_1.1_spec) org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenJPA JDBC (http://openjpa.apache.org/openjpa-jdbc) org.apache.openjpa:openjpa-jdbc:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenJPA Kernel (http://openjpa.apache.org/openjpa-kernel) org.apache.openjpa:openjpa-kernel:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenJPA Utilities Library (http://openjpa.apache.org/openjpa-lib) org.apache.openjpa:openjpa-lib:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenJPA Persistence (http://openjpa.apache.org/openjpa-persistence) org.apache.openjpa:openjpa-persistence:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenJPA Persistence JDBC (http://openjpa.apache.org/openjpa-persistence-jdbc) org.apache.openjpa:openjpa-persistence-jdbc:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - Bean Scripting Framework (http://jakarta.apache.org/bsf) bsf:bsf:jar:2.4.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-anim (http://xmlgraphics.apache.org/batik/batik-anim/) org.apache.xmlgraphics:batik-anim:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-awt-util (http://xmlgraphics.apache.org/batik/batik-awt-util/) org.apache.xmlgraphics:batik-awt-util:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-bridge (http://xmlgraphics.apache.org/batik/batik-bridge/) org.apache.xmlgraphics:batik-bridge:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-constants (http://xmlgraphics.apache.org/batik/batik-constants/) org.apache.xmlgraphics:batik-constants:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-css (http://xmlgraphics.apache.org/batik/batik-css/) org.apache.xmlgraphics:batik-css:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-dom (http://xmlgraphics.apache.org/batik/batik-dom/) org.apache.xmlgraphics:batik-dom:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-ext (http://xmlgraphics.apache.org/batik/batik-ext/) org.apache.xmlgraphics:batik-ext:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-extension (http://xmlgraphics.apache.org/batik/batik-extension/) org.apache.xmlgraphics:batik-extension:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-gvt (http://xmlgraphics.apache.org/batik/batik-gvt/) org.apache.xmlgraphics:batik-gvt:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-i18n (http://xmlgraphics.apache.org/batik/batik-i18n/) org.apache.xmlgraphics:batik-i18n:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-parser (http://xmlgraphics.apache.org/batik/batik-parser/) org.apache.xmlgraphics:batik-parser:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-script (http://xmlgraphics.apache.org/batik/batik-script/) org.apache.xmlgraphics:batik-script:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-shared-resources (http://xmlgraphics.apache.org/batik/batik-shared-resources/) org.apache.xmlgraphics:batik-shared-resources:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-svg-dom (http://xmlgraphics.apache.org/batik/batik-svg-dom/) org.apache.xmlgraphics:batik-svg-dom:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-svggen (http://xmlgraphics.apache.org/batik/batik-svggen/) org.apache.xmlgraphics:batik-svggen:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-transcoder (http://xmlgraphics.apache.org/batik/batik-transcoder/) org.apache.xmlgraphics:batik-transcoder:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-util (http://xmlgraphics.apache.org/batik/batik-util/) org.apache.xmlgraphics:batik-util:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - org.apache.xmlgraphics:batik-xml (http://xmlgraphics.apache.org/batik/batik-xml/) org.apache.xmlgraphics:batik-xml:jar:1.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache FOP All-In-One (http://xmlgraphics.apache.org/fop/fop/) org.apache.xmlgraphics:fop:jar:2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache FOP Core (http://xmlgraphics.apache.org/fop/fop-core/) org.apache.xmlgraphics:fop-core:jar:2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache FOP Events (http://xmlgraphics.apache.org/fop/fop-events/) org.apache.xmlgraphics:fop-events:jar:2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache FOP Utilities (http://xmlgraphics.apache.org/fop/fop-util/) org.apache.xmlgraphics:fop-util:jar:2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XML Graphics Commons (http://xmlgraphics.apache.org/commons/) org.apache.xmlgraphics:xmlgraphics-commons:jar:2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XML Commons External Components XML APIs Extensions (http://xml.apache.org/commons/components/external/) xml-apis:xml-apis-ext:jar:1.3.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation' (https://apache.org)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-bsf:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-datetime:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-dateutil:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-jsr223:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-sql:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-templates:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org) org.codehaus.groovy:groovy-xml:jar:3.0.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+  - Jakarta Activation (https://github.com/eclipse-ee4j/jaf/jakarta.activation) com.sun.activation:jakarta.activation:jar:1.2.2
+    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - istack common utility code runtime (https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime) com.sun.istack:istack-commons-runtime:jar:3.0.11
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - JavaBeans Activation Framework API jar (https://github.com/eclipse-ee4j/jaf/jakarta.activation-api) jakarta.activation:jakarta.activation-api:jar:1.2.1
+    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - jakarta.xml.bind-api (https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api) jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - JAXB Runtime (https://eclipse-ee4j.github.io/jaxb-ri/jaxb-runtime-parent/jaxb-runtime) org.glassfish.jaxb:jaxb-runtime:jar:2.3.3
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - TXW2 Runtime (https://eclipse-ee4j.github.io/jaxb-ri/jaxb-txw-parent/txw2) org.glassfish.jaxb:txw2:jar:2.3.3
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+From: 'Eclipse Foundation' (https://www.eclipse.org/org/foundation/)
+  - javax.ws.rs-api (https://github.com/eclipse-ee4j/jaxrs-api) jakarta.ws.rs:jakarta.ws.rs-api:bundle:2.1.5
+    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+
+From: 'FasterXML' (http://fasterxml.com)
+  - Woodstox (https://github.com/FasterXML/woodstox) com.fasterxml.woodstox:woodstox-core:bundle:6.4.0
+    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.12.7.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-dataformat-CSV (https://github.com/FasterXML/jackson-dataformats-text) com.fasterxml.jackson.dataformat:jackson-dataformat-csv:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-dataformat-YAML (https://github.com/FasterXML/jackson-dataformats-text) com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson datatype: JSR310 (https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-JAXRS-base (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-base) com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-JAXRS-JSON (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-json-provider) com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-JAXRS-YAML (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-yaml-provider) com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson module: Afterburner (https://github.com/FasterXML/jackson-modules-base) com.fasterxml.jackson.module:jackson-module-afterburner:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson module: JAXB Annotations (https://github.com/FasterXML/jackson-modules-base) com.fasterxml.jackson.module:jackson-module-jaxb-annotations:bundle:2.12.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML.com' (http://fasterxml.com)
+  - Java UUID Generator (https://github.com/cowtowncoder/java-uuid-generator) com.fasterxml.uuid:java-uuid-generator:bundle:4.1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Stax2 API (http://github.com/FasterXML/stax2-api) org.codehaus.woodstox:stax2-api:bundle:4.2.1
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'GlassFish Community' (https://javaee.github.io/glassfish)
+  - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
+    License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
+
+From: 'Google LLC' (http://www.google.com)
+  - error-prone annotations (https://errorprone.info/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.10.0
+    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - JCL 1.2 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.36
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Shigeru Chiba, www.javassist.org'
+  - Javassist (http://www.javassist.org/) org.javassist:javassist:bundle:3.22.0-GA
+    License: MPL 1.1  (http://www.mozilla.org/MPL/MPL-1.1.html)    License: LGPL 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)    License: Apache License 2.0  (http://www.apache.org/licenses/)
+
+From: 'Spring IO' (https://spring.io/projects/spring-framework)
+  - Spring AOP (https://github.com/spring-projects/spring-framework) org.springframework:spring-aop:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Beans (https://github.com/spring-projects/spring-framework) org.springframework:spring-beans:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Context (https://github.com/spring-projects/spring-framework) org.springframework:spring-context:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Context Support (https://github.com/spring-projects/spring-framework) org.springframework:spring-context-support:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Core (https://github.com/spring-projects/spring-framework) org.springframework:spring-core:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Expression Language (SpEL) (https://github.com/spring-projects/spring-framework) org.springframework:spring-expression:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework) org.springframework:spring-jcl:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring JDBC (https://github.com/spring-projects/spring-framework) org.springframework:spring-jdbc:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Object/Relational Mapping (https://github.com/spring-projects/spring-framework) org.springframework:spring-orm:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Transaction (https://github.com/spring-projects/spring-framework) org.springframework:spring-tx:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Web (https://github.com/spring-projects/spring-framework) org.springframework:spring-web:jar:5.2.24.RELEASE
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'spring.io' (https://spring.io/)
+  - spring-security-config (https://spring.io/spring-security) org.springframework.security:spring-security-config:jar:5.3.13.RELEASE
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - spring-security-core (https://spring.io/spring-security) org.springframework.security:spring-security-core:jar:5.3.13.RELEASE
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - spring-security-web (https://spring.io/spring-security) org.springframework.security:spring-security-web:jar:5.3.13.RELEASE
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'SpringSource' (https://www.springsource.com)
+  - Spring Retry (https://www.springsource.org) org.springframework.retry:spring-retry:jar:1.3.2
+    License: Apache 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Terracotta, Inc.' (http://www.terracotta.org)
+  - quartz (http://www.quartz-scheduler.org/quartz) org.quartz-scheduler:quartz:jar:2.3.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://pdfbox.apache.org)
+  - Apache FontBox (http://pdfbox.apache.org/) org.apache.pdfbox:fontbox:bundle:2.0.24
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - Geronimo JavaMail 1.4 :: Mail (http://geronimo.apache.org/maven/javamail/geronimo-javamail_1.4_mail/1.8.4/geronimo-javamail_1.4_mail) org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:bundle:1.8.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Geronimo JPA Spec 2.2 (http://geronimo.apache.org/maven/specs/geronimo-jpa_2.2_spec/1.1) org.apache.geronimo.specs:geronimo-jpa_2.2_spec:bundle:1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika core (http://tika.apache.org/) org.apache.tika:tika-core:bundle:1.28.5
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XBean :: ASM shaded (repackaged) (http://geronimo.apache.org/maven/xbean/4.20/xbean-asm9-shaded) org.apache.xbean:xbean-asm9-shaded:bundle:4.20
+    License: $license.name  (http://asm.ow2.org/license.html)    License: $license.name  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Cocoon XML Utilities (http://cocoon.apache.org/2.2/core-modules/xml-util/1.0/) org.apache.cocoon:cocoon-xml:bundle:2.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Cocoon 3: Optional (http://www.apache.org/cocoon-parent/cocoon-optional/) org.apache.cocoon.optional:cocoon-optional:jar:3.0.0-alpha-3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Cocoon 3: Pipeline (http://www.apache.org/cocoon-parent/cocoon-pipeline/) org.apache.cocoon.pipeline:cocoon-pipeline:jar:3.0.0-alpha-3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Cocoon 3: SAX (http://www.apache.org/cocoon-parent/cocoon-sax/) org.apache.cocoon.sax:cocoon-sax:jar:3.0.0-alpha-3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Standard Taglib Implementation (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-impl) org.apache.taglibs:taglibs-standard-impl:bundle:1.2.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Syncope sample project - Common (http://syncope.apache.org/SyncopeTest/syncope-common/) com.tatonimatteo:syncope-common:jar:1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache BVal :: bval-jsr (http://bval.apache.org/bval-jsr/) org.apache.bval:bval-jsr:jar:2.0.6
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons JEXL (https://commons.apache.org/proper/commons-jexl/) org.apache.commons:commons-jexl3:jar:3.2.1
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Pool (https://commons.apache.org/proper/commons-pool/) org.apache.commons:commons-pool2:jar:2.9.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Text (https://commons.apache.org/proper/commons-text) org.apache.commons:commons-text:jar:1.10.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Core (https://cxf.apache.org) org.apache.cxf:cxf-core:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime JAX-RS Frontend (https://cxf.apache.org) org.apache.cxf:cxf-rt-frontend-jaxrs:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Client (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-client:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Extensions: Search (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-extension-search:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Extensions: JSON Basic (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-json-basic:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime JOSE Core (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-jose:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Service Description (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-service-description:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Service Description OpenAPI/Swagger Common (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-service-description-common-openapi:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Service Description OpenAPI v3 (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-service-description-openapi-v3:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Service Description Swagger UI integration (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-service-description-swagger-ui:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime Security functionality (https://cxf.apache.org) org.apache.cxf:cxf-rt-security:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime HTTP Transport (https://cxf.apache.org) org.apache.cxf:cxf-rt-transports-http:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Log4j API (https://logging.apache.org/log4j/2.x/log4j-api/) org.apache.logging.log4j:log4j-api:jar:2.17.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Log4j Core (https://logging.apache.org/log4j/2.x/log4j-core/) org.apache.logging.log4j:log4j-core:jar:2.17.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Log4j SLF4J Binding (https://logging.apache.org/log4j/2.x/log4j-slf4j-impl/) org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Common Lib (http://syncope.apache.org/syncope-common/syncope-common-lib/) org.apache.syncope.common:syncope-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Common REST API (http://syncope.apache.org/syncope-common/syncope-common-rest-api/) org.apache.syncope.common:syncope-common-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Common REST API (http://syncope.apache.org/syncope-common/syncope-common-rest-api/) org.apache.syncope.common:syncope-common-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Logic (http://syncope.apache.org/syncope-core/syncope-core-logic/) org.apache.syncope.core:syncope-core-logic:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Persistence API (http://syncope.apache.org/syncope-core/syncope-core-persistence-api/) org.apache.syncope.core:syncope-core-persistence-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Persistence JPA (http://syncope.apache.org/syncope-core/syncope-core-persistence-jpa/) org.apache.syncope.core:syncope-core-persistence-jpa:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Provisioning API (http://syncope.apache.org/syncope-core/syncope-core-provisioning-api/) org.apache.syncope.core:syncope-core-provisioning-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Provisioning Java (http://syncope.apache.org/syncope-core/syncope-core-provisioning-java/) org.apache.syncope.core:syncope-core-provisioning-java:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core REST CXF (http://syncope.apache.org/syncope-core/syncope-core-rest-cxf/) org.apache.syncope.core:syncope-core-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Spring (http://syncope.apache.org/syncope-core/syncope-core-spring/) org.apache.syncope.core:syncope-core-spring:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Workflow API (http://syncope.apache.org/syncope-core/syncope-core-workflow-api/) org.apache.syncope.core:syncope-core-workflow-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Core Workflow Java (http://syncope.apache.org/syncope-core/syncope-core-workflow-java/) org.apache.syncope.core:syncope-core-workflow-java:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XmlSchema Core (https://ws.apache.org/commons/xmlschema20/xmlschema-core/) org.apache.ws.xmlschema:xmlschema-core:bundle:2.2.5
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The JASYPT team' (http://www.jasypt.org)
+  - JASYPT: Java Simplified Encryption (http://www.jasypt.org) org.jasypt:jasypt:jar:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Zaxxer.com' (https://github.com/brettwooldridge)
+  - HikariCP (https://github.com/brettwooldridge/HikariCP) com.zaxxer:HikariCP:bundle:4.0.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
