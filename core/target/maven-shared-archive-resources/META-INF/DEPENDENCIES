@@ -9,10 +9,24 @@ Apache Syncope sample project - Core
 From: 'an unknown organization'
   - Caffeine cache (https://github.com/ben-manes/caffeine) com.github.ben-manes.caffeine:caffeine:jar:2.9.3
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - error-prone annotations (http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.3.4
+    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava InternalFutureFailureAccess and InternalFutures (https://github.com/google/guava/failureaccess) com.google.guava:failureaccess:bundle:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:29.0-jre
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Disruptor Framework (http://lmax-exchange.github.com/disruptor) com.lmax:disruptor:jar:3.4.4
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - QDox (http://qdox.codehaus.org) com.thoughtworks.qdox:qdox:jar:1.12
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Metrics Core (http://metrics.dropwizard.io/metrics-core/) io.dropwizard.metrics:metrics-core:bundle:3.2.6
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Jackson Integration for Metrics (http://metrics.dropwizard.io/metrics-json/) io.dropwizard.metrics:metrics-json:bundle:3.2.6
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
   - ClassGraph (https://github.com/classgraph/classgraph) io.github.classgraph:classgraph:jar:4.6.32
     License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
   - swagger-annotations (https://github.com/swagger-api/swagger-core/modules/swagger-annotations) io.swagger.core.v3:swagger-annotations:bundle:2.0.10
@@ -37,8 +51,14 @@ From: 'an unknown organization'
     License: CDDL 1.0  (http://opensource.org/licenses/CDDL-1.0)
   - AspectJ Weaver (https://www.eclipse.org/aspectj/) org.aspectj:aspectjweaver:jar:1.9.19
     License: Eclipse Public License - v 2.0  (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt)
-  - Checker Qual (https://checkerframework.org) org.checkerframework:checker-qual:jar:3.19.0
+  - Bouncy Castle Provider (http://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-jdk15on:jar:1.54
+    License: Bouncy Castle Licence  (http://www.bouncycastle.org/licence.html)
+  - Checker Qual (https://checkerframework.org) org.checkerframework:checker-qual:jar:2.11.1
     License: The MIT License  (http://opensource.org/licenses/MIT)
+  - Cryptacular Library (http://www.cryptacular.org) org.cryptacular:cryptacular:jar:1.1.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl-3.0.txt)
+  - Liquibase (http://www.liquibase.org/liquibase-root/liquibase-dist) org.liquibase:liquibase-core:jar:4.9.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - Highlight.js (http://webjars.org) org.webjars:highlightjs:jar:11.5.0
     License: BSD  (https://raw.github.com/isagalaev/highlight.js/master/LICENSE)
   - jquery (http://webjars.org) org.webjars:jquery:jar:3.4.1
@@ -49,6 +69,10 @@ From: 'an unknown organization'
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/) xml-apis:xml-apis:jar:1.4.01
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: The SAX License  (http://www.saxproject.org/copying.html)    License: The W3C License  (http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip)
+
+From: 'ANTLR' (http://www.antlr.org)
+  - ANTLR 4 Runtime (http://www.antlr.org/antlr4-runtime) org.antlr:antlr4-runtime:jar:4.9.3
+    License: The BSD License  (http://www.antlr.org/license.html)
 
 From: 'Apache Software Foundation' (http://www.apache.org)
   - JMS 1.1 (http://geronimo.apache.org/specs/geronimo-jms_1.1_spec) org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1
@@ -188,19 +212,143 @@ From: 'FasterXML.com' (http://fasterxml.com)
   - Stax2 API (http://github.com/FasterXML/stax2-api) org.codehaus.woodstox:stax2-api:bundle:4.2.1
     License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
 
+From: 'Flowable' (http://www.flowable.org)
+  - Flowable - Batch Service (http://www.flowable.org/modules/flowable-batch-service) org.flowable:flowable-batch-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Batch Service API (http://www.flowable.org/modules/flowable-batch-service-api) org.flowable:flowable-batch-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - BPMN Converter (http://www.flowable.org/modules/flowable-bpmn-converter) org.flowable:flowable-bpmn-converter:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - BPMN Model (http://www.flowable.org/modules/flowable-bpmn-model) org.flowable:flowable-bpmn-model:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - CMMN API (http://www.flowable.org/modules/flowable-cmmn-api) org.flowable:flowable-cmmn-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - CMMN Model (http://www.flowable.org/modules/flowable-cmmn-model) org.flowable:flowable-cmmn-model:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Content API (http://www.flowable.org/modules/flowable-content-api) org.flowable:flowable-content-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - DMN API (http://www.flowable.org/modules/flowable-dmn-api) org.flowable:flowable-dmn-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - DMN Model (http://www.flowable.org/modules/flowable-dmn-model) org.flowable:flowable-dmn-model:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Engine (http://www.flowable.org/modules/flowable-engine) org.flowable:flowable-engine:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Engine Common (http://www.flowable.org/modules/flowable-engine-common) org.flowable:flowable-engine-common:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Engine Common API (http://www.flowable.org/modules/flowable-engine-common-api) org.flowable:flowable-engine-common-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Entity Link Service (http://www.flowable.org/modules/flowable-entitylink-service) org.flowable:flowable-entitylink-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Entity Link Service API (http://www.flowable.org/modules/flowable-entitylink-service-api) org.flowable:flowable-entitylink-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Registry (http://www.flowable.org/modules/flowable-event-registry) org.flowable:flowable-event-registry:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Registry API (http://www.flowable.org/modules/flowable-event-registry-api) org.flowable:flowable-event-registry-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - flowable-event-registry-configurator (http://www.flowable.org/modules/flowable-event-registry-configurator) org.flowable:flowable-event-registry-configurator:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - flowable-event-registry-json-converter (http://www.flowable.org/modules/flowable-event-registry-json-converter) org.flowable:flowable-event-registry-json-converter:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Registry Model (http://www.flowable.org/modules/flowable-event-registry-model) org.flowable:flowable-event-registry-model:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Registry - Spring (http://www.flowable.org/flowable-event-registry-spring) org.flowable:flowable-event-registry-spring:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Registry Spring Configurator (http://www.flowable.org/flowable-event-registry-spring-configurator) org.flowable:flowable-event-registry-spring-configurator:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Subscription Service (http://www.flowable.org/modules/flowable-eventsubscription-service) org.flowable:flowable-eventsubscription-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Event Subscription Service API (http://www.flowable.org/modules/flowable-eventsubscription-service-api) org.flowable:flowable-eventsubscription-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Form API (http://www.flowable.org/modules/flowable-form-api) org.flowable:flowable-form-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Form Model (http://www.flowable.org/modules/flowable-form-model) org.flowable:flowable-form-model:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - HTTP Common (http://www.flowable.org/modules/flowable-http-common) org.flowable:flowable-http-common:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Identity Link Service (http://www.flowable.org/modules/flowable-identitylink-service) org.flowable:flowable-identitylink-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Identity Link Service API (http://www.flowable.org/modules/flowable-identitylink-service-api) org.flowable:flowable-identitylink-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - IDM API (http://www.flowable.org/modules/flowable-idm-api) org.flowable:flowable-idm-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - IDM Engine (http://www.flowable.org/modules/flowable-idm-engine) org.flowable:flowable-idm-engine:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - flowable-idm-engine-configurator (http://www.flowable.org/modules/flowable-idm-engine-configurator) org.flowable:flowable-idm-engine-configurator:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - IDM - Spring (http://www.flowable.org/flowable-idm-spring) org.flowable:flowable-idm-spring:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - flowable-idm-spring-configurator (http://www.flowable.org/flowable-idm-spring-configurator) org.flowable:flowable-idm-spring-configurator:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Image Generator (http://www.flowable.org/modules/flowable-image-generator) org.flowable:flowable-image-generator:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Job Service (http://www.flowable.org/modules/flowable-job-service) org.flowable:flowable-job-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Job Service API (http://www.flowable.org/modules/flowable-job-service-api) org.flowable:flowable-job-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable Job Spring Service (http://www.flowable.org/modules/flowable-job-spring-service) org.flowable:flowable-job-spring-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - JSON Converter (http://www.flowable.org/flowable-json-converter) org.flowable:flowable-json-converter:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Process Validation (http://www.flowable.org/modules/flowable-process-validation) org.flowable:flowable-process-validation:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Spring (http://www.flowable.org/flowable-spring) org.flowable:flowable-spring:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Spring Common (http://www.flowable.org/flowable-spring-common) org.flowable:flowable-spring-common:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Task Service (http://www.flowable.org/modules/flowable-task-service) org.flowable:flowable-task-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Task Service API (http://www.flowable.org/modules/flowable-task-service-api) org.flowable:flowable-task-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Variable Service (http://www.flowable.org/modules/flowable-variable-service) org.flowable:flowable-variable-service:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Flowable - Variable Service API (http://www.flowable.org/modules/flowable-variable-service-api) org.flowable:flowable-variable-service-api:jar:6.8.0
+    License: Apache v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
 From: 'GlassFish Community' (https://javaee.github.io/glassfish)
   - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
     License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
 
-From: 'Google LLC' (http://www.google.com)
-  - error-prone annotations (https://errorprone.info/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.10.0
-    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+From: 'Joda.org' (https://www.joda.org)
+  - Joda-Time (https://www.joda.org/joda-time/) joda-time:joda-time:jar:2.10.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'MyBatis.org' (https://www.mybatis.org/)
+  - mybatis (http://www.mybatis.org/mybatis-3) org.mybatis:mybatis:jar:3.5.10
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - Old JAXB Core (http://jaxb.java.net/jaxb-bundles/jaxb-core) com.sun.xml.bind:jaxb-core:jar:2.3.0
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - Old JAXB Runtime (http://jaxb.java.net/jaxb-bundles/jaxb-impl) com.sun.xml.bind:jaxb-impl:jar:2.3.0
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
 
 From: 'QOS.ch' (http://www.qos.ch)
   - JCL 1.2 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.36
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
     License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Shibboleth Consortium' (https://shibboleth.net)
+  - java-support (http://shibboleth.net/java-support/) net.shibboleth.utilities:java-support:jar:7.3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: Core (http://shibboleth.net/opensaml-core/) org.opensaml:opensaml-core:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: Profile API (http://shibboleth.net/opensaml-profile-api/) org.opensaml:opensaml-profile-api:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: SAML Provider API (http://shibboleth.net/opensaml-saml-api/) org.opensaml:opensaml-saml-api:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: SAML Provider Implementations (http://shibboleth.net/opensaml-saml-impl/) org.opensaml:opensaml-saml-impl:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: Security API (http://shibboleth.net/opensaml-security-api/) org.opensaml:opensaml-security-api:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: Security Implementation (http://shibboleth.net/opensaml-security-impl/) org.opensaml:opensaml-security-impl:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: SOAP Provider API (http://shibboleth.net/opensaml-soap-api/) org.opensaml:opensaml-soap-api:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: XML Security API (http://shibboleth.net/opensaml-xmlsec-api/) org.opensaml:opensaml-xmlsec-api:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML :: XML Security Implementation (http://shibboleth.net/opensaml-xmlsec-impl/) org.opensaml:opensaml-xmlsec-impl:jar:3.3.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'Shigeru Chiba, www.javassist.org'
   - Javassist (http://www.javassist.org/) org.javassist:javassist:bundle:3.22.0-GA
@@ -243,6 +391,8 @@ From: 'SpringSource' (https://www.springsource.com)
     License: Apache 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'Terracotta, Inc.' (http://www.terracotta.org)
+  - ehcache (http://ehcache.org) net.sf.ehcache:ehcache:jar:2.10.6
+    License: The Apache Software License, Version 2.0  (src/assemble/EHCACHE-CORE-LICENSE.txt)
   - quartz (http://www.quartz-scheduler.org/quartz) org.quartz-scheduler:quartz:jar:2.3.2
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
@@ -261,6 +411,8 @@ From: 'The Apache Software Foundation' (http://www.apache.org)
     License: $license.name  (http://asm.ow2.org/license.html)    License: $license.name  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.10
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Cocoon XML Utilities (http://cocoon.apache.org/2.2/core-modules/xml-util/1.0/) org.apache.cocoon:cocoon-xml:bundle:2.0.2
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Cocoon 3: Optional (http://www.apache.org/cocoon-parent/cocoon-optional/) org.apache.cocoon.optional:cocoon-optional:jar:3.0.0-alpha-3
@@ -268,6 +420,10 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
   - Apache Cocoon 3: Pipeline (http://www.apache.org/cocoon-parent/cocoon-pipeline/) org.apache.cocoon.pipeline:cocoon-pipeline:jar:3.0.0-alpha-3
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Cocoon 3: SAX (http://www.apache.org/cocoon-parent/cocoon-sax/) org.apache.cocoon.sax:cocoon-sax:jar:3.0.0-alpha-3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Email (http://commons.apache.org/proper/commons-email/) org.apache.commons:commons-email:jar:1.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XML Security for Java (http://santuario.apache.org/) org.apache.santuario:xmlsec:bundle:2.0.5
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Standard Taglib Implementation (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-impl) org.apache.taglibs:taglibs-standard-impl:bundle:1.2.5
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -278,6 +434,14 @@ From: 'The Apache Software Foundation' (https://www.apache.org/)
   - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache BVal :: bval-jsr (http://bval.apache.org/bval-jsr/) org.apache.bval:bval-jsr:jar:2.0.6
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Core (http://camel.apache.org/camel-parent/camel-core) org.apache.camel:camel-core:jar:2.25.4
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Metrics (http://camel.apache.org/camel-parent/components/camel-metrics) org.apache.camel:camel-metrics:jar:2.25.4
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Script (deprecated) (http://camel.apache.org/camel-parent/components/camel-script) org.apache.camel:camel-script:jar:2.25.4
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Spring (http://camel.apache.org/camel-parent/components/camel-spring) org.apache.camel:camel-spring:jar:2.25.4
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Commons JEXL (https://commons.apache.org/proper/commons-jexl/) org.apache.commons:commons-jexl3:jar:3.2.1
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -293,11 +457,23 @@ From: 'The Apache Software Foundation' (https://www.apache.org/)
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF JAX-RS Client (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-client:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF JAX-RS Extensions: Providers (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-extension-providers:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF JAX-RS Extensions: Search (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-extension-search:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF JAX-RS Extensions: JSON Basic (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-json-basic:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF Runtime JOSE Core (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-jose:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime JOSE JAX-RS (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-jose-jaxrs:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime OAuth 2.0 (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-oauth2:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime OpenId Connect (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-sso-oidc:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF RS SSO SAML (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-sso-saml:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF RS XML Security (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-security-xml:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF JAX-RS Service Description (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-service-description:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -308,6 +484,8 @@ From: 'The Apache Software Foundation' (https://www.apache.org/)
   - Apache CXF JAX-RS Service Description Swagger UI integration (https://cxf.apache.org) org.apache.cxf:cxf-rt-rs-service-description-swagger-ui:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF Runtime Security functionality (https://cxf.apache.org) org.apache.cxf:cxf-rt-security:bundle:3.3.13
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime SAML Security functionality (https://cxf.apache.org) org.apache.cxf:cxf-rt-security-saml:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache CXF Runtime HTTP Transport (https://cxf.apache.org) org.apache.cxf:cxf-rt-transports-http:bundle:3.3.13
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -341,7 +519,93 @@ From: 'The Apache Software Foundation' (https://www.apache.org/)
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Syncope Core Workflow Java (http://syncope.apache.org/syncope-core/syncope-core-workflow-java/) org.apache.syncope.core:syncope-core-workflow-java:jar:2.1.14
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Swagger UI (http://syncope.apache.org/syncope-ext/syncope-ext-swagger-ui/) org.apache.syncope.ext:syncope-ext-swagger-ui:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-common-lib/) org.apache.syncope.ext.camel:syncope-ext-camel-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel Logic (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-logic/) org.apache.syncope.ext.camel:syncope-ext-camel-logic:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel Persistence API (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-persistence-api/) org.apache.syncope.ext.camel:syncope-ext-camel-persistence-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel Persistence JPA (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-persistence-jpa/) org.apache.syncope.ext.camel:syncope-ext-camel-persistence-jpa:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel Provisioning (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-provisioning/) org.apache.syncope.ext.camel:syncope-ext-camel-provisioning:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel Provisioning API (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-provisioning-api/) org.apache.syncope.ext.camel:syncope-ext-camel-provisioning-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel REST API (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-rest-api/) org.apache.syncope.ext.camel:syncope-ext-camel-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel REST API (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-rest-api/) org.apache.syncope.ext.camel:syncope-ext-camel-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Camel REST CXF (http://syncope.apache.org/syncope-ext/syncope-ext-camel/syncope-ext-camel-rest-cxf/) org.apache.syncope.ext.camel:syncope-ext-camel-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable BPMN (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-bpmn/) org.apache.syncope.ext.flowable:syncope-ext-flowable-bpmn:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-common-lib/) org.apache.syncope.ext.flowable:syncope-ext-flowable-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable Logic (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-logic/) org.apache.syncope.ext.flowable:syncope-ext-flowable-logic:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable REST API (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-rest-api/) org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable REST API (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-rest-api/) org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable REST CXF (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-rest-cxf/) org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-common-lib/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Logic (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-logic/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-logic:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Persistence API (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-persistence-api/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-persistence-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Persistence JPA (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-persistence-jpa/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-persistence-jpa:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Provisioning API (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-provisioning-api/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-provisioning-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Provisioning Java (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-provisioning-java/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-provisioning-java:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client REST API (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-rest-api/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client REST API (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-rest-api/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client REST CXF (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-rest-cxf/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-common-lib/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Logic (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-logic/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-logic:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Persistence API (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-persistence-api/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-persistence-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Persistence JPA (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-persistence-jpa/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-persistence-jpa:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Provisioning API (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-provisioning-api/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-provisioning-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Provisioning Java (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-provisioning-java/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-provisioning-java:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP REST API (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-rest-api/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP REST API (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-rest-api/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP REST CXF (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-rest-cxf/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-common-lib/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 Logic (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-logic/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-logic:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 REST API (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-rest-api/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 REST API (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-rest-api/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 REST CXF (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-rest-cxf/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 SCIM REST API (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-scim-rest-api/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-scim-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SCIMv2 SCIM REST CXF (http://syncope.apache.org/syncope-ext/syncope-ext-scimv2/syncope-ext-scimv2-scim-rest-cxf/) org.apache.syncope.ext.scimv2:syncope-ext-scimv2-scim-rest-cxf:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - XmlSchema Core (https://ws.apache.org/commons/xmlschema20/xmlschema-core/) org.apache.ws.xmlschema:xmlschema-core:bundle:2.2.5
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache WSS4J WS-Security Common (https://ws.apache.org/wss4j/wss4j-ws-security-common/) org.apache.wss4j:wss4j-ws-security-common:jar:2.2.7
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache WSS4J DOM WS-Security (https://ws.apache.org/wss4j/wss4j-ws-security-dom/) org.apache.wss4j:wss4j-ws-security-dom:jar:2.2.7
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'The JASYPT team' (http://www.jasypt.org)

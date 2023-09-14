@@ -201,6 +201,28 @@ From: 'The Apache Software Foundation' (https://www.apache.org/)
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Syncope Common REST API (http://syncope.apache.org/syncope-common/syncope-common-rest-api/) org.apache.syncope.common:syncope-common-rest-api:jar:2.1.14
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable Client Enduser (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-client-enduser/) org.apache.syncope.ext.flowable:syncope-ext-flowable-client-enduser:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-common-lib/) org.apache.syncope.ext.flowable:syncope-ext-flowable-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: Flowable REST API (http://syncope.apache.org/syncope-ext/syncope-ext-flowable/syncope-ext-flowable-rest-api/) org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Agent (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-agent/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-agent:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Enduser (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-client-enduser/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-client-enduser:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-common-lib/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: OIDC Client REST API (http://syncope.apache.org/syncope-ext/syncope-ext-oidcclient/syncope-ext-oidcclient-rest-api/) org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Agent (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-agent/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-agent:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Client Enduser (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-client-enduser/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-client-enduser:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP Common Lib (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-common-lib/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-common-lib:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Syncope Ext: SAML2 SP REST API (http://syncope.apache.org/syncope-ext/syncope-ext-saml2sp/syncope-ext-saml2sp-rest-api/) org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-api:jar:2.1.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - XmlSchema Core (https://ws.apache.org/commons/xmlschema20/xmlschema-core/) org.apache.ws.xmlschema:xmlschema-core:bundle:2.2.5
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
 
