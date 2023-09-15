@@ -29,6 +29,7 @@ replay_pid*
 */target/*
 /build/
 /bin/
+bin/
 /out/
 
 # File di log
@@ -37,8 +38,8 @@ replay_pid*
 log/
 log-*/
 
-# IDE: VSC, Intellij, NetBeans
-# File di build di Visual Studio
+# IDE: VSC, Intellij, NetBeans, Eclipse
+# File di Visual Studio
 .vscode/
 /.vscode/
 *.suo
@@ -47,9 +48,14 @@ log-*/
 *.sln
 *.sw?
 
-# File di build di IntelliJ
+# File di IntelliJ
 .idea/
 
-# File di build di NetBeans
+# File di NetBeans
 nb-configuration.xml
 /nbproject/private/
+
+#File di Eclipse
+.settings/
+.project
+.classpath
