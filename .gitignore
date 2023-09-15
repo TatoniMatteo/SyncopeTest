@@ -22,3 +22,33 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Directory e file generati dalla build
+/target/
+/build/
+/bin/
+/out/
+
+# File di log
+*.log
+*.log.*
+log/
+log-*/
+
+# IDE: VSC, Intellij, NetBeans
+# File di build di Visual Studio
+.vscode/
+/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# File di build di IntelliJ
+.idea/
+
+# File di build di NetBeans
+nb-configuration.xml
+/nbproject/private/
