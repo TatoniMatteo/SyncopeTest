@@ -26,6 +26,7 @@ replay_pid*
 
 # Directory e file generati dalla build
 /target/
+*/target/*
 /build/
 /bin/
 /out/
