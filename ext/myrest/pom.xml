@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.tatonimatteo</groupId>
+    <artifactId>SyncopeTest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <name>Apache Syncope sample project - Ext</name>
+  <groupId>com.tatonimatteo.ext</groupId>
+  <artifactId>syncope-ext</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <!-- dipendenze specifiche modulo -->
+    <dependency>
+      <groupId>org.apache.syncope.common</groupId>
+      <artifactId>syncope-common-lib</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.syncope.core</groupId>
+      <artifactId>syncope-core-rest-cxf</artifactId>
+    </dependency>
+    <!-- Altre dipendenze necessarie -->
+  </dependencies>
+
+</project>
