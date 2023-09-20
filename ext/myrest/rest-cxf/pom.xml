@@ -9,20 +9,36 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <name>Apache Syncope sample project - Ext: MyRest Logic</name>
+  <name>Apache Syncope sample project - Ext: MyRest REST CXF</name>
   <groupId>com.tatonimatteo.ext.myrest</groupId>
-  <artifactId>syncope-ext-myrest-logic</artifactId>
+  <artifactId>syncope-ext-myrest-rest-cxf</artifactId>
   <packaging>jar</packaging>
-
+  
   <properties>
     <rootpom.basedir>${basedir}/../../..</rootpom.basedir>
   </properties>
 
- <dependencies>
+  <dependencies>
     <dependency>
       <groupId>org.apache.syncope.core</groupId>
-      <artifactId>syncope-core-logic</artifactId>
-      <version>${syncope.version}</version>
+      <artifactId>syncope-core-rest-cxf</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.tatonimatteo.ext.myrest</groupId>
+      <artifactId>syncope-ext-myrest-rest-api</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tatonimatteo.ext.myrest</groupId>
+      <artifactId>syncope-ext-myrest-rest-api</artifactId>
+      <version>${project.version}</version>
+      <classifier>javadoc</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.tatonimatteo.ext.myrest</groupId>
+      <artifactId>syncope-ext-myrest-logic</artifactId>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 

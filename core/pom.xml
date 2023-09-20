@@ -57,6 +57,11 @@ under the License.
       <artifactId>syncope-core-rest-cxf</artifactId>
     </dependency>
     <dependency>
+      <groupId>com.tatonimatteo.ext.myrest</groupId>
+      <artifactId>syncope-ext-myrest-rest-cxf</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.syncope.core</groupId>
       <artifactId>syncope-core-workflow-java</artifactId>
     </dependency>

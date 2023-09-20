@@ -27,6 +27,8 @@ replay_pid*
 # Directory e file generati dalla build
 /target/
 */target/*
+ext/myrest/*/target/
+ext/myrest/target/
 /build/
 /bin/
 bin/
@@ -59,3 +61,5 @@ nb-configuration.xml
 .settings/
 .project
 .classpath
+
+

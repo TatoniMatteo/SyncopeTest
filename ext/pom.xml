@@ -9,18 +9,17 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <name>Apache Syncope sample project - Ext: MyRest</name>
-  <groupId>com.tatonimatteo.ext</groupId>
-  <artifactId>syncope-ext-myrest</artifactId>
+  <name>Apache Syncope sample project - Ext</name>
+  <groupId>com.tatonimatteo</groupId>
+  <artifactId>syncope-ext</artifactId>
   <packaging>pom</packaging>
 
   <properties>
-    <rootpom.basedir>${basedir}/../..</rootpom.basedir>
+    <rootpom.basedir>${basedir}/..</rootpom.basedir>
   </properties>
 
   <modules>
-    <module>rest-api</module>
-    <module>rest-cxf</module>
-    <module>logic</module>
+    <module>myrest</module>
   </modules>
+
 </project>
